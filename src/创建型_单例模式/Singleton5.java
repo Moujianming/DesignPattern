@@ -10,7 +10,7 @@ public class Singleton5 {
 	
 	private Singleton5() {};
 	
-	private static Singleton5 getinstance() {
+	public static Singleton5 getinstance() {
 		return single;
 	}
 }

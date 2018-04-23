@@ -9,7 +9,7 @@ public class Singleton6 {
 	
 	private Singleton6() {};
 	
-	private static Singleton6 getinstance()
+	public static Singleton6 getinstance()
 	{
 		return SingleHolder.single;
 	}

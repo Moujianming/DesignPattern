@@ -6,7 +6,7 @@ public class Singleton3 {
 	
 	private Singleton3() {};
 	
-	private static Singleton3 getinstance()
+	public static Singleton3 getinstance()
 	{
 		synchronized (single) {
 			if(null==single)
